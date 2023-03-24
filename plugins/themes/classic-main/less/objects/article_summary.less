@@ -1,0 +1,63 @@
+/**
+ * @file less/objects/article_summary.less
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief article summary, includes title, authors, and galleys
+ *
+ */
+
+.summary_title_wrapper {
+	line-height: 0.85;
+	margin-bottom: 0;
+}
+
+.summary_title {
+	font-family: @font-family-primary;
+	color: #000;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.2;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.summary_meta {
+	margin-top: 20px;
+	font-family: @font-family-secondary;
+	line-height: 1.25;
+	font-size: small;
+}
+
+.summary_meta div:not(:last-child) {
+	padding-bottom: 5px;
+}
+
+.article_summary {
+	width: 31%;
+	margin-bottom: 60px;
+	margin-right: 2%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.article_summary {
+		width: 48%;
+		margin-right: 2%;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.article_summary {
+		width: 100%;
+	}
+
+	.article_summary {
+		padding-bottom: 40px;
+	}
+}

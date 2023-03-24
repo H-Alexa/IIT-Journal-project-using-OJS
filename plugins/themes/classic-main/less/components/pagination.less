@@ -1,0 +1,45 @@
+/**
+ * @file less/components/pagination.less
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief Stylesheet for pagination items
+ *
+ */
+
+
+.pagination_navigation {
+	margin-top: 40px;
+}
+
+.page-item .page-link {
+	color: #000;
+
+	&:hover {
+		color: #fff;
+		background-color: #000;
+		border: 1px solid #000;
+	}
+}
+
+// Overriding Bootstrap
+.page-item:last-child .page-link, .page-item:first-child .page-link {
+	border-radius: 0;
+}
+
+
+.page-item.active .page-link {
+	background-color: @primary-colour;
+	border-color: @primary-colour;
+	box-shadow: none;
+	color: #000;
+	pointer-events: none;
+}
+
+// Overriding default styling
+.page-link {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}

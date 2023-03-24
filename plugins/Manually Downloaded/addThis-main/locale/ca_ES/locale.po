@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-13 10:39+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Catalan <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"ca_ES/>\n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Mòdul AddThis"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Aquesta llista mostra els enllaços més compartits de l'última setmana. Per "
+"veure totes les altres estadístiques disponibles a AddThis visiteu el <a "
+"href=\"https://www.addthis.com/dashboard\" target=\"_blank\">tauler de "
+"control AddThis</a> i inicieu la sessió."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Enllaços més compartits"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Comparticions"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Trieu com voleu que es mostri AddThis"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Registreu-vos</a> per obtenir "
+"informes analítics detallats i per entendre millor el trànsit social del "
+"vostre lloc web."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Contrasenya AddThis (obligatòria per mostrar les estadístiques)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Nom d'usuari/ària AddThis"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "Identificador del perfil AddThis"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "S'ha guardat la configuració del formulari AddThis."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Estadístiques"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Configuració"
+
+msgid "plugins.generic.addThis.title"
+msgstr "Mòdul AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Aquest mòdul proporciona la funcionalitat AddThis de compartició de "
+"contingut social per a les trameses."

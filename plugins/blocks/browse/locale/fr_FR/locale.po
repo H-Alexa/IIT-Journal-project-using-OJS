@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-20 16:09+0000\n"
+"Last-Translator: Martin Brändle <martin.braendle@uzh.ch>\n"
+"Language-Team: French <http://translate.pkp.sfu.ca/projects/plugins/"
+"browse-plugin/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.block.browse.category"
+msgstr "Categories"
+
+msgid "plugins.block.browse.description"
+msgstr "Ce plugin fournit des outils de navigation dans la barre latérale."
+
+msgid "plugins.block.browse.displayName"
+msgstr "Bloc \"Naviguer\""
+
+msgid "plugins.block.browse"
+msgstr "Naviguer"

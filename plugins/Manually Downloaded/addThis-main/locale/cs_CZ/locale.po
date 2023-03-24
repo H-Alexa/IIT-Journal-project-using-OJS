@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-23 06:47+0000\n"
+"Last-Translator: Jiří Dlouhý <jiri.dlouhy@czp.cuni.cz>\n"
+"Language-Team: Czech <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Tento seznam ukazuje nejvíce sdílené odkazy za minulý týden. Pokud chcete "
+"vidět další statistiky AddThis, navštivte, prosím, <a href=\""
+"https://www.addthis.com/dashboard\" target=\"_blank\">stránky AddThis</a> a "
+"přihlaste se."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Nejvíce sdílené odkazy"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Sdílení"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Zvolte, jak má být AddThis zobrazeno"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Registrujte se</a> pro získání "
+"bezplatných analytických zpráv pro lepší pochopení vašeho využívání "
+"sociálních sítí."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Heslo AddThis (je požadováno, pokud chcete zobrazovat statistiky)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Uživatelské jméno AddThis"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "ID profilu AddThis"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Nastavení formuláře AddThis bylo uloženo."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Statistiky"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Nastavení"
+
+msgid "plugins.generic.addThis.title"
+msgstr "Plugin AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Tento plugin poskytuje nástroj addThis pro sdílení příspěvků v sociálních "
+"médiích."
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Plugin AddThis"

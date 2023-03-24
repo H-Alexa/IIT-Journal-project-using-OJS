@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T16:03:51+00:00\n"
+"PO-Revision-Date: 2020-06-13 10:39+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Spanish <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Módulo AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Este módulo proporciona la funcionalidad AddThis de compartición de "
+"contenido social para los envíos."
+
+msgid "plugins.generic.addThis.title"
+msgstr "Módulo AddThis"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Ajustes"
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Estadísticas"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Ajustes de formulario AddThis guardados."
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "Identificación del perfil AddThis"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Nombre de usuario/a de AddThis"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Contraseña de AddThis (necesaria para mostrar estadísticas)"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr "<a href=\"https://www.addthis.com/register\">Regístrese</a> para obtener informes de análisis exhaustivos y entender mejor el tráfico social de su sitio web."
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Por favor, elija la manera en que Addthis debería visualizarse"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Comparticiones"
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Enlaces más compartidos"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr "Esta lista muestra los enlaces más compartidos durante la última semana. Para visualizar todas las estadísticas de AddThis, visite el sitio web <a href=\"https://www.addthis.com/dashboard\" target=\"_blank\">AddThis Dashboard</a> e inicie sesión."

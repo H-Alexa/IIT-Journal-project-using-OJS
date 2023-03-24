@@ -1,0 +1,357 @@
+/**
+ * @file less/components/header.less
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief Stylesheet for site header
+ *
+ */
+
+// all header
+
+.header {
+	background-color: #000;
+	padding-top: 7px;
+}
+
+.home-link {
+
+	&:hover, &:focus {
+		text-decoration: none;
+		background-color: inherit;
+		border: 0;
+	}
+}
+
+.header .row {
+	min-height: @minHeight-userMenu;
+}
+
+.nav-link {
+	color: #FFF;
+	font-family: @font-family-secondary;
+	font-size: 14px;
+	box-shadow: none;
+
+	&:hover, &:focus, &:active {
+		background: none;
+	}
+}
+
+.user-dropdown a:focus {
+	background-color: @primary-colour;
+}
+
+@media (min-width: 992px) {
+	.header {
+		.container-padding()
+	}
+
+	header {
+		& .nav-link {
+			margin-left: -15px;
+		}
+		& li:last-child .nav-link.locales-toogle-off {
+			padding-right: 0;
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	#show-modal {
+		padding-left: 0;
+	}
+}
+
+#nav-small {
+	display: none;
+}
+
+.nav-tabs .nav-link {
+	border: 0;
+	&:focus, &:hover {
+		color: @secondary-colour;
+	}
+}
+
+
+// user navigation menu & language toggle block
+#navigationUser {
+	justify-content: flex-end;
+	border-bottom: 0;
+}
+
+#navigationUser a, #user-nav-wraper a {
+	font-size: 12px;
+	border: 0;
+}
+
+#user-nav-wraper {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#languageNav {
+	border-bottom: none;
+
+	& li > a {
+		padding-left: 16px;
+	}
+
+	& .dropdown-toggle {
+		color: white;
+		cursor: pointer;
+	}
+}
+
+#languageNav .show #languageToggleMenulanguageNav {
+	color: @primary-colour;
+}
+
+.task_count {
+	background-color: white;
+	color: #000;
+	font-weight: bolder;
+	display: inline-block;
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 3px;
+}
+
+#user-dashboard-link:hover .task_count {
+	background-color: @primary-colour;
+}
+
+.show #user-dashboard-link .task_count {
+	background-color: @primary-colour;
+}
+
+.navigation-dropdown.show .task_count {
+	display: inline-block;
+	background-color: #000;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bolder;
+}
+
+
+// Dropdown menu
+.dropdown-menu {
+	padding: 0;
+	border-radius: 0;
+	border-color: #000;
+}
+
+.dropdown-item {
+	padding: 0.5rem 0.25rem;
+	text-align: center;
+	font-family: @font-family-secondary;
+	font-size: 0.75rem;
+
+	&:focus, &:hover, &:active {
+		background-color: @primary-colour;
+		color: @contrast-colour;
+	}
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: #000;
+}
+
+// Journal logo
+.upper-header {
+	padding-top: 7px;
+	padding-left: 16px;
+}
+
+.journal-logo-text {
+	color: #FFF;
+	padding-top: 5px;
+	font-family: @font-family-primary;
+	font-size: 22px;
+	&:focus, &:hover {
+		color: @secondary-colour;
+	}
+}
+
+.journal-logo {
+	max-height: @minHeight-userMenu;
+}
+
+.logo-wrapper {
+	padding-left: 0;
+
+	& a {
+		border-bottom: none;
+	}
+}
+
+/* user navigation
+ * menu && language toggle FOR small SCREENS
+ */
+@media (max-width: 991px) {
+	#navigationUser, #languageNav {
+		& .nav-item.show .nav-link.dropdown-toggle {
+			background-color: #000;
+		}
+	}
+
+}
+
+@media (max-width: 767px) {
+	#user-nav-wraper {
+		justify-content: flex-start;
+		padding-left: 0;
+	}
+
+	#navigationUser li:first-child .nav-link {
+		padding-left: 0;
+	}
+}
+
+
+/* primary navigation menu
+ * FOR LARGE SCREENS
+ */
+@media (min-width: 992px) {
+	// always show primary menu on big screens
+	#modal-on-small {
+		display: block;
+	}
+
+	#close-small-modal {
+		display: none;
+	}
+
+	#navigationPrimary {
+		border: 0;
+		justify-content: space-between;
+		padding-bottom: 15px;
+	}
+
+	#navigationPrimary .nav-link {
+		text-transform: uppercase;
+	}
+}
+
+/* primary navigation
+ * menu FOR small SCREENS
+ */
+@media (max-width: 991px) {
+	#show-modal {
+		cursor: pointer;
+		color: #fff;
+		&:focus, &:hover {
+			color: #fff;
+			background-color: inherit;
+		}
+	}
+
+	#nav-small {
+		display: flex;
+		border-bottom: 0;
+		padding-bottom: 15px;
+	}
+
+	#nav-small li {
+		margin-bottom: 0;
+	}
+
+	#nav-small a {
+		border: 0;
+		text-transform: uppercase;
+	}
+
+	.nav-modal {
+		.modal();
+	}
+
+	// we don't want to display modal element while it has hide class value
+	.nav-modal.hide {
+		display: none;
+	}
+
+	#primary-nav-wraper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		background-color: #fefefe;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 50%;
+		overflow-y: auto;
+	}
+
+	#close-small-modal {
+		position: absolute;
+		right: 10px;
+		top: 0;
+		color: #aaaaaa;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	#close-small-modal:hover,
+	#close-small-modal:focus {
+		color: #000;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	// styling nav inside modal menu
+	#navigationPrimary {
+		display: block;
+		border-bottom: 0;
+	}
+
+	#navigationPrimary a {
+		border: 0;
+		color: #0a0a0a;
+	}
+
+	#navigationPrimary .user-dropdown a {
+		font-size: 16px;
+	}
+
+	// overriding the Bootstrap and look for big screens
+
+	.nav-item.show .nav-link.dropdown-toggle {
+		background-color: white;
+	}
+
+	#navigationPrimary .navigation-dropdown.dropdown-menu {
+		transform: translate3d(15px, 37px, 0px) !important;
+	}
+
+	// styling nav menu
+
+	#navigationPrimary > li {
+		padding-top: 8px;
+		padding-bottom: 8px;
+
+		&:not(:last-child) {
+			border-bottom: 1px solid #ced4da;
+		}
+	}
+
+}
+
+@media (max-width: 767px) {
+	#primary-nav-wraper {
+		width: 67%;
+	}
+}
+
+@media (max-width: 576px) {
+	#primary-nav-wraper {
+		width: 100%;
+	}
+}

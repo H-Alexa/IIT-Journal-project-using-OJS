@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-08 17:38+0000\n"
+"Last-Translator: Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>\n"
+"Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"tr_TR/>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis Eklentisi"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "AddThis Eklentisi"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Paylaşım"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"Sitenizin sosyal trafiğini ücretsiz analiz raporları ile daha iyi anlamak "
+"için <a href=\"https://www.addthis.com/register\">Kayıt olun</a>."
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Bu liste, geçen haftaki en popüler paylaşılan bağlantılarınızı gösterir. "
+"Olası tüm AddThis istatistikleri için, lütfen <a href=\"https://www.addthis."
+"com/dashboard\" target=\"_blank\"> AddThis Kontrol Paneli </a>'ni ziyaret "
+"edin ve giriş yapın."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "En Çok Paylaşılan Bağlantılar"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Lütfen AddThis'in nasıl görüntüleneceğini seçin"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "AddThis Şifre (istatistikleri görüntülenmesi için gerekli)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "AddThis Kullanıcı adı"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "AddThis Profil ID"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "AddThis form ayarları kaydedildi."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "İstatistik"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Ayarlar"
+
+msgid "plugins.generic.addThis.description"
+msgstr "Bu eklenti, gönderiler için addThis sosyal medya paylaşımını sağlar."

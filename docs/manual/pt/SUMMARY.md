@@ -1,0 +1,18 @@
+# Sumário
+
+* [Introdução](README)
+* [Perfil de Utilizador](user-profile)
+* [Autoria](authoring)
+* [Revisão](reviewing)
+* [Gerir Submissões](submissions)
+* [Processo Editorial](editorial-workflow)
+   * [Etapa de Submissão](editorial-workflow/submission)
+   * [Etapas de Revisão](editorial-workflow/review)
+   * [Edição de Texto](editorial-workflow/copyediting)
+   * [Produção](editorial-workflow/production)
+* [Gestão de Números](issue-management)
+* [Tarefas](tasks)
+* [Configurações](settings)
+* [Utilizadores e Papéis](users-and-roles)
+* [Ferramentas](tools)
+* [Administração](administration)

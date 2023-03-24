@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-09 08:32+0000\n"
+"Last-Translator: Teodora Fildishevska <t.fildishevska@gmail.com>\n"
+"Language-Team: Macedonian <http://translate.pkp.sfu.ca/projects/plugins/"
+"addthis/mk_MK/>\n"
+"Language: mk_MK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Оваа листа ви ги покажува најпопуларните споделени линкови за изминатата "
+"недела. За сите можни AddThis статистики, ве молиме постете ја веб-"
+"страницата <a href=\"https://www.addthis.com/dashboard\" target=\"_blank\">"
+"AddThis контролна табла</a> и најавете се."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Врвни споделени линкови"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Споделувања"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Ве молиме изберете како AddThis да претстави"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Регистрирајте се</a> за "
+"бесплатни детални извештаи за аналитика и подобро разберете го социјалниот "
+"сообраќај на вашата страница."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "AddThis лозинка (задолжителна за приказ на статистики)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "AddThis корисничко име"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "AddThis ID на профил"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Зачуван AddThis формулар за поставки."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Статистика"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Поставки"
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis плагин"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Овој плагин овозможува споделување на социјалните медиуми преку addThis за "
+"поднесоци."
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "AddThis плагин"

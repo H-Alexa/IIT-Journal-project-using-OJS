@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-20T15:57:55+00:00\n"
+"PO-Revision-Date: 2021-01-28 11:53+0000\n"
+"Last-Translator: FRITT, University of Oslo Library <fritt-"
+"info@journals.uio.no>\n"
+"Language-Team: Norwegian Bokmål <http://translate.pkp.sfu.ca/projects/"
+"plugins/tinymce-plugin/nb_NO/>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.tinymce.name"
+msgstr "TinyMCE-programtillegg"
+
+msgid "plugins.generic.tinymce.description"
+msgstr ""
+"Dette programtillegget gjør at du får se på skjermen din hvordan innholdet "
+"vil se ut for leserne, ved hjelp av editoren  <a href=\"https://www.tinymce."
+"com\" target=\"_blank\">TinyMCE</a>."
+
+msgid "plugins.generic.tinymce.settings"
+msgstr "Innstillinger"
+
+msgid "plugins.generic.tinymce.pkpTags.listTags"
+msgstr "Velg etikett"
+
+msgid "plugins.generic.tinymce.pkpTags.noneAvailable"
+msgstr "Ingen etiketter er tilgjengelige i dette feltet."
+
+msgid "plugins.generic.tinymce.pkpTags.description"
+msgstr "Du kan sette inn en av følgende etiketter:"
+
+msgid "plugins.generic.tinymce.variables.principalContactName"
+msgstr "Navn hovedkontakt (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.principalContactEmail"
+msgstr "E-post hovedkontakt (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactName"
+msgstr "Brukerstøtte hovedkontakt (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactEmail"
+msgstr "Brukerstøtte epost (\"{$value}\")"
+
+msgid "plugins.generic.tinymce.variables.supportContactPhone"
+msgstr "Brukerstøtte telefon (\"{$value}\")"

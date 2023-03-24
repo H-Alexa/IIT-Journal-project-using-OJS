@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-28 22:54+0000\n"
+"Last-Translator: Tormod Strømme <tormod.stromme@uib.no>\n"
+"Language-Team: Norwegian Bokmål <http://translate.pkp.sfu.ca/projects/"
+"plugins/addthis/nb_NO/>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Denne oversikten viser dine mest populære lenker fra forrige uke. For "
+"tilgang til all AddThis-statistikken, gå til <a href=\"https://www.addthis."
+"com/dashboard\" target=\"_blank\">AddThis Dashboard</a> på addthis sin "
+"nettside og logg inn."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Mest delte lenker"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Delinger"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Velg hvordan AddThis skal presenteres"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Registrer</a> for gratis å få "
+"levert en detaljert rapport som gir mer innsikt i hvordan din nettside får "
+"trafikk fra sosiale medier."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "AddThis-passord (nødvendig for å vise statistikk)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "AddThis-brukernavn"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "AddThis-profil-ID"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "AddThis-innstillingene er lagret."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Statistikk"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Innstillinger"
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis programtillegg"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Dette programtillegget gjør det mulig å dele lenken til artikkelen på "
+"sosiale medier med addThis."
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "AddThis programtillegg"

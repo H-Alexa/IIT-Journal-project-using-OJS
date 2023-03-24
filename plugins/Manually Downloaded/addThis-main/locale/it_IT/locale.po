@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T16:03:51+00:00\n"
+"PO-Revision-Date: 2020-05-07 10:38+0000\n"
+"Last-Translator: Akin Ayturan <akinayturan@gmail.com>\n"
+"Language-Team: English (United States) <http://translate.pkp.sfu.ca/projects/"
+"plugins/addthis/en_US/>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "AddThis Plugin"
+
+msgid "plugins.generic.addThis.description"
+msgstr "Questo plugin aggiunge la condivisione sui social media di addThis alle proposte."
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis Plugin"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Impostazioni"
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Statistiche"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Impostazioni AddThis salvate."
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "AddThis Profile ID"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "AddThis Username"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "AddThis Password (richiesta per mostrare le statistiche)"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr "<a href=\"https://www.addthis.com/register\">Registrati</a> gratuitamente per avere report di statistiche approfondite e migliorare la comprensione del traffico del tuo sito sui social network."
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Scegliere come AddThis deve essere mostrato"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Condividi"
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Links più condivisi"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr "Questa lista mostra i tuoi link più condivisi dell'ultima settimana. Per tutte le possibili statistiche di AddThis, visita la <a href=\"https://www.addthis.com/dashboard\" target=\"_blank\">AddThis Dashboard</a> e fai il log in."

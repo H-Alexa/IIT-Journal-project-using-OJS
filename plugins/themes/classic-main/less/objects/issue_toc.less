@@ -1,0 +1,121 @@
+/**
+ * @file less/objects/issue_toc.less
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief issue table of content
+ *
+ */
+
+// date published
+
+.published {
+	font-size: small;
+	font-family: @font-family-secondary;
+}
+
+// issue introduction
+
+.description_cover {
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.issue_cover_block a {
+	border-bottom: none;
+	box-shadow: none;
+}
+
+@media (min-width: 992px) {
+	.description {
+		width: 50%;
+	}
+	.cover_image {
+		max-width: 210px;
+	}
+	.issue_cover_block {
+		width: 50%;
+		text-align: right;
+	}
+	.issue_cover_block.align-left {
+		text-align: left;
+	}
+}
+
+@media (max-width: 991px)  {
+	.cover_image {
+		max-width: 300px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.description {
+		width: 70%;
+		margin-right: 5%;
+	}
+	.issue_cover_block {
+		width: 25%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.description_text {
+		column-count: 2;
+		margin: 15px 0 35px 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.description_text {
+		margin: 15px 0 35px 0;
+	}
+}
+
+.sections {
+	padding-top: 28px;
+}
+
+.section_title {
+	font-family: @font-family-secondary;
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 42px;
+	padding-top: 3px;
+}
+
+.section {
+	padding-bottom: 40px;
+	padding-top: 32px;
+}
+
+.section:not(:last-child) {
+	border-bottom: 2px solid #bcbcbc;
+}
+
+.section_content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+// only for issue page
+.full_issue_label {
+	border-top: 2px solid #bcbcbc;
+	font-size: 18px;
+	font-family: @font-family-primary;
+	margin-top: 57px;
+	padding-top: 39px;
+}
+
+.full_issue_label span {
+	display: inline-block;
+	border-bottom: 3px solid @primary-colour;
+}
+
+@media (min-width: 992px) {
+	.full_issue_label {
+		max-width: 50%;
+	}
+}

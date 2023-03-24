@@ -1,0 +1,93 @@
+/**
+ * @file less/typography.less
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief most site-wide typography
+ *
+ */
+
+// General typography
+
+body {
+	font-family: @font-family-primary;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @font-family-primary;
+	font-weight: bold;
+
+	a {
+		border-bottom: none;
+		box-shadow: none;
+	}
+}
+
+p, li, a, blockquote {
+	font-family: @font-family-primary;
+	font-size: 1rem;
+	line-height: 1.8;
+}
+
+dt, address, table, label {
+	font-family: @font-family-secondary;
+	font-size: smaller;
+}
+
+ol {
+	list-style: none;
+	counter-reset: item;
+
+	& li:before {
+		font-family: @font-family-secondary;
+		font-size: smaller;
+		counter-increment: item;
+		content: counter(item) '. ';
+	}
+}
+
+blockquote {
+	border-left: 1px solid #000;
+	padding-left: 30px;
+}
+
+cite {
+	display: block;
+	text-align: right;
+}
+
+a, a:not([href]) {
+	cursor: pointer;
+	color: #000;
+	background-color: transparent;
+	text-decoration: none;
+	border-bottom: 1px solid @secondary-colour;
+	overflow-wrap: break-word;
+	word-break: break-word;
+	word-wrap: break-word;
+	transition: all .15s ease-in-out;
+
+	&:hover, &:active, &:focus {
+		color: @contrast-colour;
+		text-decoration: none;
+		background-color: @primary-colour;
+		border-color: @primary-colour;
+	}
+}
+
+.ion-icon-text {
+	vertical-align: middle;
+}
+
+ion-icon {
+	vertical-align: middle;
+}

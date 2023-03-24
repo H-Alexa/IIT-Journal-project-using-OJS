@@ -1,0 +1,174 @@
+/**
+ * @file less/page.less
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief Stylesheet that applies for all front-end theme pages
+ *
+ */
+
+// site-wide padding for pages
+
+.hide {
+	display: none;
+}
+
+.container-page {
+	padding-top: 40px;
+	padding-bottom: 150px;
+}
+
+.flex_container {
+	display: flex;
+}
+
+@media (min-width: 992px) {
+	.container-page {
+		.container-padding();
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.container-page {
+	margin-top: 15px;
+}
+
+.pkp_screen_reader {
+	display: none;
+}
+
+.cmp_edit_link {
+  margin-bottom: 1em;
+  border: 1px solid;
+	&:extend(.btn);
+	&:extend(.btn-secondary);
+}
+
+// forms
+.form-control {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+
+	&:focus {
+		border-bottom: 1px solid @primary-colour;
+		box-shadow: none;
+	}
+}
+
+.form-row > .form-group {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+// pagination
+
+.search-pagination-results {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	& span {
+		border-bottom: 2px solid @primary-colour;
+	}
+}
+
+.search-pagination-numbers {
+	display: flex;
+
+	& a, strong {
+		border: 1px solid #ced4da;
+		padding: 5px;
+	}
+
+	& strong {
+		background-color: @primary-colour;
+		font-weight: normal;
+		color: white;
+	}
+}
+
+// additional rules for text pages
+
+@media (min-width: 1400px) {
+
+	.container-narrow {
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+	.container-narrow {
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+	.container-narrow {
+		padding-left: 17%;
+		padding-right: 17%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+	.container-narrow {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
+
+// modals
+
+.modal-content, .modal-header {
+	border: 0;
+	border-radius: 0;
+}
+
+.modal-header {
+	background-color: #000;
+	color: white;
+
+	& .close span {
+		color: white;
+	}
+}
+
+// tables
+
+.table-wrapper {
+	overflow-x: auto;
+}
+
+table, .table {
+	border-bottom: 1px solid #ddd;
+
+	th, td {
+		padding-left: 0;
+	}
+
+	p, li {
+		font-family: @font-family-secondary;
+		font-size: smaller;
+	}
+
+}
+
+// Back-links in errors and messages
+.cmp_back_link {
+	margin-top: 20px;
+}

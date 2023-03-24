@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:30+00:00\n"
+"PO-Revision-Date: 2021-02-08 21:06+0000\n"
+"Last-Translator: Carla Marques <carla.marques@usdb.uminho.pt>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.pkp.sfu.ca/projects/"
+"ojs/admin/pt_PT/>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "admin.hostedContexts"
+msgstr "Revistas Alojadas"
+
+msgid "admin.settings.redirect"
+msgstr "Redirecionar para revista"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"Os pedidos realizados no site principal serão direcionados para esta "
+"revista. Esta opção pode ser útil caso o site aloje apenas uma revista, por "
+"exemplo."
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr "Este será o idioma padrão para o site e todas as revistas alojadas."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"Selecione todos os idiomas que estarão disponíveis no site. Os idiomas "
+"selecionados estarão disponíveis para todas as revistas, e irão aparecer num "
+"menu de seleção de idiomas em cada página do sistema (esta opção pode ser "
+"desativada em cada revista). Caso não sejam selecionados vários idiomas, o "
+"menu de idiomas não estará disponível e a opção \"configurações de idioma\" "
+"não estará disponível para as revistas."
+
+msgid "admin.languages.confirmUninstall"
+msgstr ""
+"Deseja realmente remover este idioma? Isto poderá afetar todas as revistas "
+"alojadas que estejam atualmente a utilizar o idioma."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Selecione idiomas adicionais para uso no sistema. Os idiomas devem ser "
+"instalados antes que possam ser utilizados pelas revistas alojadas. Veja a "
+"documentação do OJS para informações sobre como adicionar novos idiomas no "
+"sistema."
+
+msgid "admin.auth.ojs"
+msgstr "Base de Dados de Utilizadores do OJS"
+
+msgid "admin.auth.enableSyncProfiles"
+msgstr "Activar sincronização de perfil de utilizadores (caso suportado pelo plugin de autenticação!). Os perfis dos utilizadores serão actualizados com o conteúdo da fonte remota assim que o utilizador aceda ao sistema e alterações no perfil (incluindo alteração de senha) realizadas dentro do sistema actualizarão a fonte remota. Caso esta opção não esteja activada, os perfis no sistema serão mantidos separados da fonte remota."
+
+msgid "admin.auth.enableSyncPasswords"
+msgstr "Activar alteração de senha de utilizador (caso suportado pelo plugin de autenticação!). Activar esta opção permite ao utilizador modificar a senha do sistema e fazer uso da opção de recuperação de senha para criar uma nova senha. Estas funcionalidades não estarão disponíveis aos utilizadores com esta fonte de autenticação, caso não seja activada."
+
+msgid "admin.auth.enableCreateUsers"
+msgstr "Activar criação de utilizadores (caso suportado pelo plugin de autenticação!). Utilizadores criados no sistema serão automaticamente incluídos na fonte de autenticação remota, caso não existam ainda. Inclusive, utilizadores criados através do registo de utilizadores também serão incluídos automaticamente na fonte remota, caso esta seja a fonte de autenticação padrão."
+
+msgid "admin.systemVersion"
+msgstr "Versão do OJS"
+
+msgid "admin.systemConfiguration"
+msgstr "Configuração do OJS"
+
+msgid "admin.systemConfigurationDescription"
+msgstr "Configurações do OJS no documento <tt>config.inc.php</tt>."
+
+msgid "admin.journals.journalSettings"
+msgstr "Configurações da Revista"
+
+msgid "admin.journals.noneCreated"
+msgstr "Não foram criadas revistas."
+
+msgid "admin.contexts.confirmDelete"
+msgstr "Deseja realmente eliminar permanentemente esta revista e o seu conteúdo?"
+
+msgid "admin.contexts.create"
+msgstr "Criar revista"
+
+msgid "admin.journals.createInstructions"
+msgstr "O seu registo como Director da revista será automático. Após a criação de uma revista, aceda-a como director e continue com as configurações da revista e registo de utilizadores."
+
+msgid "admin.journals.urlWillBe"
+msgstr ""
+"Geralmente é usado um acrónimo que identifica a revista. O URL da revista "
+"será: {$sampleUrl}."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "Caminho obrigatório."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr "O caminho deve conter apenas caracteres alfanuméricos, sublinhado, hífens, e deve começar e terminar com um caractere alfanumérico."
+
+msgid "admin.contexts.form.pathExists"
+msgstr "O caminho seleccionado já está em uso por outra revista."
+
+msgid "admin.journals.enableJournalInstructions"
+msgstr "Permitir Acesso Aberto a esta revista no portal"
+
+msgid "admin.contexts.contextDescription"
+msgstr "Descrição da Revista"
+
+msgid "admin.journal.pathImportInstructions"
+msgstr "Caminho existente ou caminho a ser criado  (ex.: \"ojs\")."
+
+msgid "admin.journals.importSubscriptions"
+msgstr "Importar assinaturas"
+
+msgid "admin.journals.transcode"
+msgstr "Transcodificar metadados de ISO8859-1"
+
+msgid "admin.journals.redirect"
+msgstr "Gerar código para mapear URLs da versão 1 do OJS para URLs da versão 2"
+
+msgid "admin.journals.form.importPathRequired"
+msgstr "O caminho físico para a importação é obrigatório."
+
+msgid "admin.journals.importErrors"
+msgstr "Importação não concluída"
+
+msgid "admin.mergeUsers"
+msgstr "Juntar utilizadores"
+
+msgid "admin.mergeUsers.mergeUser"
+msgstr "Juntar utilizador"
+
+msgid "admin.mergeUsers.into.description"
+msgstr "Escolha um utilizador a quem deseja atribuir as submissões e histórico de tarefas do registo anterior."
+
+msgid "admin.mergeUsers.from.description"
+msgstr "Escolha um utilizador para fundir o registo com o de outra conta (quando um utilizador possui duas contas distintas, em vez de acumular funções editoriais). O registo seleccionado primeiro será eliminado e as suas submissões e histórico de tarefas atribuídas ao segundo registo escolhido."
+
+msgid "admin.mergeUsers.allUsers"
+msgstr "Todos os utilizadores"
+
+msgid "admin.mergeUsers.confirm"
+msgstr ""
+"Deseja realmente juntar o registo do utilizador \"{$oldAccountCount}\" com o "
+"registo do utilizador \"{$newUsername}\"? O registo de \"{$oldAccountCount}\""
+" será eliminado permanentemente. Esta ação é irreversível."
+
+msgid "admin.mergeUsers.noneEnrolled"
+msgstr "Nenhum utilizador registado."
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "Idiomas marcados podem estar incompletos."
+
+msgid "admin.settings.defaultMetricDescription"
+msgstr ""
+"\n"
+"\t\tA sua instalação do OJS foi configurada para guardar mais do que uma "
+"métrica. As estatísticas de utilização serão exibidas em diferentes "
+"contextos.\n"
+"\t\tHaverá situações em que apenas será usada uma métrica, ex.: mostrar uma "
+"lista ordenada dos artigos mais usados ou ordenar\n"
+"\t\tresultados da pesquisa. Selecione apenas um das métricas configuradas "
+"como padrão.\n"
+"\t"
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"Deseja realmente desativar este idioma? Esta ação pode afetar todas as "
+"revistas alojadas que estejam a utilizar este idioma."
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "É obrigatório um título."
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Lembrete de caducidade de subscrição/assinatura"
+
+msgid "admin.scheduledTask.openAccessNotification"
+msgstr "Notificação de Acesso Aberto"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Lembrete de Revisão"
+
+msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
+msgstr ""
+"O recurso de e-mail em massa foi desativado para esta revista. Ative este "
+"recurso em  <a href=\"{$siteSettingsUrl}\">Administração > Configurações do "
+"Site</a>."
+
+msgid "admin.settings.disableBulkEmailRoles.description"
+msgstr ""
+"O editor-gestor não poderá enviar e-mails em massa para qualquer dos papéis "
+"selecionados abaixo. Use esta configuração para limitar o abuso de envio de "
+"e-mails de notificação. Por exemplo, poderá ser mais seguro desativar o "
+"envio de e-mails em massa para leitores, autores ou outro grupo de "
+"utilizadores maior que não deram consentimento para receber estes "
+"e-mails.<br><br>O recurso de e-mail em massa pode ser desativado "
+"completamente para esta revista em<a href=\"{$siteSettingsUrl}\">"
+"Administração > Configurações do Site</a>."
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"Selecione as revistas alojadas que podem enviar e-mails em massa. Quando "
+"este recurso está ativo, o editor-gestor poderá enviar um e-mail para todos "
+"os utilizadores registados na sua revista.<br><br>A má utilização deste "
+"recurso para envio de e-mail não solicitados pode violar as leis anti-spam "
+"de alguns locais e pode levar ao seu servidor de e-mail ser bloqueado como "
+"spam. Procure apoio técnico antes de ativar esta funcionalidade e considere "
+"consultar os editores-gestores para assegurar que é utilizador de forma "
+"apropriada.<br><br>Podem ser ativadas restrições adicionais para cada "
+"revista no assistente de configuração de <a href=\"{$hostedContextsUrl}\">"
+"Revistas Alojadas</a>."
+
+msgid "admin.contexts.form.primaryLocaleNotSupported"
+msgstr "O idioma principal deve ser um dos idiomas suportados pela revista."

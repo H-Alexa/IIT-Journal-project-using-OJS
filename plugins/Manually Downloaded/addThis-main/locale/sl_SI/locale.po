@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-26 19:31+0000\n"
+"Last-Translator: Primož Svetek <primoz.svetek@gmail.com>\n"
+"Language-Team: Slovenian <http://translate.pkp.sfu.ca/projects/plugins/"
+"addthis/sl/>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Ta seznam predstavlja najbolj popularne deljene povezave zadnjega tedna. Za "
+"vse ostale AddThis statistike obiščite <a href=\"https://www.addthis.com/"
+"dashboard\"target=\"_blank\">AddThis nadzorno ploščo</a> in se prijavite."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Najbolj deljene povezave"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Deljenje"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Prosimo izberite način prikaza AddThis"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">registracija</a> za zastonj "
+"globja poročila in boljše razumevanje prometa vaše strani na socialnih "
+"omrežjih."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "AddThis geslo (zahtevnao za prikaz statistik)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "AddThis uporabniško ime"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "ID AddThis računa"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "AddThis nastavitve shranjene."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Statistike"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Nastavitve"
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr "Vtičnik omogoča addThis deljenje za socialna omrežja."
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "AddThis"

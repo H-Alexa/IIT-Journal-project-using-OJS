@@ -1,0 +1,77 @@
+/**
+ * @defgroup pkp_controllers_notification
+ */
+
+/**
+ * @file styles/controllers/notification.less
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @ingroup pkp_controllers_notification
+ *
+ * @brief Styles for pkp_controllers_notification
+ */
+
+.pkp_notification {
+	position: relative;
+
+	.title {
+		display: block;
+		font-weight: @bold;
+	}
+
+	// Override .pkp_form .description
+	.description {
+		color: @text;
+		color: @text-rgba;
+	}
+
+	> div {
+		position: relative;
+		margin-bottom: 2rem;
+		padding: 1rem;
+		padding-left: 1.5rem;
+		border: @bg-border;
+		font-size: @font-sml;
+		line-height: @line-sml;
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: -1px;
+			bottom: -1px;
+			left: -1px;
+			width: 0.5rem;
+			background: @primary;
+		}
+	}
+
+	> .notifySuccess:before {
+		background: @yes;
+	}
+
+	> .notifyWarning:before {
+		background: @warn;
+	}
+
+	> .notifyError:before,
+	> .notifyFormError:before,
+	> .notifyForbidden:before {
+		background: @no;
+	}
+}
+
+// in-place notifications that appear above the main page content
+// example: upgrade notices
+.pkp_structure_main > .pkp_notification {
+	padding: 0 2rem 2rem;
+	background: @bg;
+
+	> div {
+		margin-bottom: 0;
+		background: @lift;
+	}
+}

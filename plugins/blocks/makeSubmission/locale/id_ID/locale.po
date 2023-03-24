@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-19 10:52+0000\n"
+"Last-Translator: Ramli Baharuddin <ramli.baharuddin@relawanjurnal.id>\n"
+"Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/plugins/"
+"makeSubmission/id/>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.block.makeSubmission.linkLabel"
+msgstr "Kirim Naskah"
+
+msgid "plugins.block.makeSubmission.description"
+msgstr "Plugin ini menampilkan tautan \"Kirim Naskah\" pada blok sidebar."
+
+msgid "plugins.block.makeSubmission.displayName"
+msgstr "Blok \"Kirim Naskah\""

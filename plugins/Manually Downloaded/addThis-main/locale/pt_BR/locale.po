@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T16:03:51+00:00\n"
+"PO-Revision-Date: 2020-06-04 15:39+0000\n"
+"Last-Translator: Diego José Macêdo <diegojmacedo@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <http://translate.pkp.sfu.ca/projects/"
+"plugins/addthis/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Plugin AddThis"
+
+msgid "plugins.generic.addThis.title"
+msgstr "Plugin AddThis"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Configurações"
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Estatísticas"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Senha do AddThis (necessária para a exibição de estatísticas)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Nome de usuário AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Este plugin fornece o compartilhamento de mídia social addThis para "
+"submissões."
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Esta lista mostra os links compartilhados mais populares da semana passada. "
+"Para obter todas as estatísticas possíveis do AddThis, visite o site <a href="
+"\"https://www.addthis.com/dashboard\" target=\"_blank\"> AddThis Dashboard "
+"</a> e faça login."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Principais links compartilhados"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Compartilhamentos"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Por favor, escolha como o AddThis deve exibir"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Resgistra-se</a> para obter "
+"relatórios analíticos detalhados gratuitos e entender melhor o tráfego "
+"social do seu site."
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "ID do perfil AddThis"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Configurações do formulário AddThis salvas."

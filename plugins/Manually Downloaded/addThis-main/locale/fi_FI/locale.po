@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T16:03:51+00:00\n"
+"PO-Revision-Date: 2020-10-14 12:50+0000\n"
+"Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
+"Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"fi_FI/>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "AddThis-lisäosa"
+
+msgid "plugins.generic.addThis.description"
+msgstr "Tämä lisäosa lisää addThis-palvelun tarjoamat sosiaalisen median jakonapit julkaisuihin."
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis-lisäosa"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Asetukset"
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Tilastot"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "AddThis-asetukset tallennettu."
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "AddThis profiilin ID"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "AddThis käyttäjänimi"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "AddThis salasana (vaaditaan tilastojen näyttämiseen)"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr "<a href=\"https://www.addthis.com/register\">Rekisteröidy</a> ilmaiseksi käyttämään palvelun tarjoamaa analytiikkaa."
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Valitse miten AddThis-palvelun jakonapit näytetään"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Jaot"
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Eniten jaettu"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr "Tämä lista näyttää kuluneen viikon eniten jaetut linkit. Koko statistiikka näkyy <a href=\"https://www.addthis.com/dashboard\" target=\"_blank\">AddThis Dashboard</a> sivustolla. Kirjaudu omilla tunnuksillasi."

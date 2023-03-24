@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:04:58+00:00\n"
+"PO-Revision-Date: 2020-12-01 20:51+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Spanish <http://translate.pkp.sfu.ca/projects/plugins/"
+"custom-block-manager-plugin/es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "Gestor de Bloques Personalizados"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "Gestionar bloques personalizados"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "Este módulo le permite gestionar (añadir, editar, eliminar) los bloques personalizados de la barra lateral."
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "Bloques personalizados"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Nombre de Bloque"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "Añadir Bloque"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "No se ha creado ningún bloque personalizado."
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Contenido"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(Bloque Personalizado)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "Este es un Bloque generado por el usuario."
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "Se requiere el nombre del bloque personalizado."
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "El nombre del bloque personalizado sólo debe contener letras, números y guiones/guiones bajos."
+
+msgid "plugins.generic.customBlock.showName.description"
+msgstr "Mostrar el nombre de este bloque encima de su contenido."
+
+msgid "plugins.generic.customBlock.showName"
+msgstr "Mostrar nombre"

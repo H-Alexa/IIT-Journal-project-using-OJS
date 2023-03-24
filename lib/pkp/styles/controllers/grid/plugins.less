@@ -1,0 +1,133 @@
+/**
+ * @file styles/controllers/grid/plugins.less
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @ingroup pkp_controllers_grid
+ *
+ * @brief Classes for the plugin grid and gallery
+ */
+
+#pluginGridContainer .gridRow.category {
+	background: @bg;
+}
+
+.pkp_plugin_details {
+	.pkp_helpers_clear;
+
+	.status {
+		float: right;
+		margin-left: 2rem;
+		margin-bottom: 2rem;
+		width: 40%;
+		border: @bg-border-light;
+		border-radius: @radius;
+		font-size: @font-tiny;
+		line-height: @line-tiny;
+
+		> * {
+			margin: 0;
+			padding: 1rem;
+			border-bottom: @bg-border-light;
+
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+	}
+
+	.action_button a {
+		&:extend(.pkp_button all);
+		display: block;
+		text-align: center;
+	}
+
+	.status_notice {
+		font-weight: @bold;
+	}
+
+	.status.newer,
+	.status.newest {
+
+		.status_notice {
+			color: @yes;
+		}
+	}
+
+	.status.incompatible .status_notice {
+		color: @no;
+	}
+
+	.certifications {
+		&:extend(.pkp_unstyled_list all);
+
+		.label {
+			display: block;
+			font-weight: @bold;
+		}
+	}
+
+	> .maintainer,
+	> .url,
+	> .description,
+	> .installation {
+		font-size: @font-sml;
+		line-height: @line-sml;
+	}
+
+	.url {
+		margin-top: 1rem;
+	}
+
+	.description,
+	.installation {
+		margin-top: 2rem;
+	}
+
+	.author,
+	.url {
+		position: relative;
+		padding-left: 2rem;
+
+		&:before {
+			.fa();
+			position: absolute;
+			top: 50%;
+			left: 1rem;
+			transform: translate(-50%, -50%);
+			color: @text-light-rgba;
+		}
+
+	}
+
+	.author {
+		font-weight: @bold;
+
+		a {
+			text-decoration: none;
+		}
+
+		&:before {
+			content: @fa-var-user;
+		}
+	}
+
+	.institution {
+		padding-left: 2rem;
+		color: @text-light;
+	}
+
+	.url {
+
+		a {
+			text-decoration: none;
+		}
+
+		&:before {
+			content: @fa-var-link;
+		}
+
+	}
+}

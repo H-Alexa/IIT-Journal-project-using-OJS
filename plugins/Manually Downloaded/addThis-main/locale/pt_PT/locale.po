@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T16:03:51+00:00\n"
+"PO-Revision-Date: 2020-06-06 02:31+0000\n"
+"Last-Translator: Carla Marques <carla.marques@sdum.uminho.pt>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.pkp.sfu.ca/projects/"
+"plugins/addthis/pt_PT/>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr "Esta lista apresenta os trabalhos mais partilhados da semana passada. Para obter todas as estatísticas, visite  o website <a href=\"https://www.addthis.com/dashboard\" target=\"_blank\">AddThis Dashboard</a> e inicie sessão."
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Partilhas"
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Links mais partilhados"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr "<a href=\"https://www.addthis.com/register\">Registe-se</a> gratuitamente para obter relatórios detalhados e perceber o comportamento dos trabalhos na web social."
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Escolha como o AddThis será apresentado"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Plugin AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Este plugin disponibiliza o serviço addThis para partilhar os trabalhos nas "
+"redes sociais."
+
+msgid "plugins.generic.addThis.title"
+msgstr "Plugin AddThis"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Configurações"
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Estatísticas"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Configurações guardadas."
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "ID do perfil AddThis"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Nome de Utilizador"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Password (necessário para permitir apresentação de estatísticas)"

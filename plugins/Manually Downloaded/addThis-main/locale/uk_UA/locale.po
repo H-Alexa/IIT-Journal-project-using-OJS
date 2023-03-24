@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-25T16:03:51+00:00\n"
+"PO-Revision-Date: 2020-02-25T16:03:51+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr "Цей плагін дозволяє використовувати систему поширення в соціальних мережах AddThis."
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Налаштування"
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Статистика"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Налаштування форми AddThis збережені."
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "ID профілю AddThis"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Ім'я користувача AddThis"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Пароль AddThis (необхідний для відображення статистики)"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr "<a href=\"https://www.addthis.com/register\">Зареєструватися</a> для отримання безкоштовних звітів з докладною аналітикою щодо трафіку."
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Будь ласка, оберіть зовнішній вигляд AddThis"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Поширення"
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Найбільш поширювані посилання"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr "У цьому списку відображені найбільш поширювані посилання за останній тиждень. Для перегляду всеможливої статистики AddThis, будь ласка, відвідайте <a href=\"https://www.addthis.com/dashboard\" target=\"_blank\">консоль AddThis</a> та увійдіть до системи."

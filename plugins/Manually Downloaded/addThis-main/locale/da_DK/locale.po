@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T16:03:51+00:00\n"
+"PO-Revision-Date: 2020-05-12 15:38+0000\n"
+"Last-Translator: Niels Erik Frederiksen <nef@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"da_DK/>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "AddThis Plugin"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Denne plugin gør det muligt at dele indsendelserne på de sociale medier via "
+"addThis."
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis Plugin"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Indstillinger"
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Statistik"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "AddThis-indstillingerne er gemt."
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "AddThis Profil-ID"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "AddThis-brugernavn"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "AddThis-adgangskode (kræves for at vise statistik)"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr "<a href=\"https://www.addthis.com/register\">Tilmeld</a> dig og få gratis leveret en detaljeret rapport, der giver dig mere indsigt i hvordan din hjemmeside indgår i den sociale trafik."
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Vælg hvordan AddThis skal fremvises"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Delinger"
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Top-delte links"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr "Denne oversigt viser dine mest populære delte links i den sidste uge. Ønsker du at se samtlige AddThis-statistikker, skal du klikke ind på <a href=\"http://www.addthis.com/analytics\" target=\"_blank\">AddThis Analytics</a> hvor du kan logge dig ind."

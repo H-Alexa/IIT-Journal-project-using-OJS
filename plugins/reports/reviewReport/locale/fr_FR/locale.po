@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-24 15:53+0000\n"
+"Last-Translator: Martin Brändle <martin.braendle@uzh.ch>\n"
+"Language-Team: French <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/fr_FR/>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Commentaires sur la soumission"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Recommandation"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Jour(s) de retard pour donner une réponse"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Jour(s) de retard pour la remise de l'évaluation"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Date de rappel"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Date de complétion"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Non considéré-e"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Date de confirmation"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Date de confirmation"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Date d'avis"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Date d'attribution"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Évaluateur-trice"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID de la soumission"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Titre de la soumission"
+
+msgid "plugins.reports.reviews.round"
+msgstr "Cycle"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"Ce module met en place un rapport CSV contenant une liste de missions "
+"d'évaluation pour un journal."
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Rapport d'évaluation"

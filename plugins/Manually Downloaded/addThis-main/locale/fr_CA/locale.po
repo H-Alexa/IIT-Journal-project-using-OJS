@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-12 15:38+0000\n"
+"Last-Translator: Marie-Hélène Vézina [UdeMontréal] <marie-"
+"helene.vezina@umontreal.ca>\n"
+"Language-Team: French (Canada) <http://translate.pkp.sfu.ca/projects/plugins/"
+"addthis/fr_CA/>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Cette liste affiche vos liens partagés les plus populaires pendant la "
+"dernière semaine. Pour toutes les statistiques AddThis possibles, veuillez "
+"visiter le site Web <a href=\"https://www.addthis.com/dashboard\" target=\""
+"_blank\">Tableau de bord AddThis</a> et vous y connecter."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Les liens les plus partagés"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Partages"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Veuillez choisir comment AddThis devrait afficher"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">S'inscrire</a> pour obtenir des "
+"rapports d'analyse exhaustifs gratuits et pour mieux comprendre "
+"l'utilisation de votre site faites sur les médias sociaux."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Mot de passe AddThis (requis pour afficher les statistiques)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Nom d'utilisateur-trice AddThis"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "Identifiant du profil AddThis"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Les paramètres du formulaire AddThis ont été sauvegardés."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Statistiques"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Paramètres"
+
+msgid "plugins.generic.addThis.title"
+msgstr "Plugiciel AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Ce plugiciel permet l'ajout du service addThis lequel permet le partage des "
+"soumissions sur les médias sociaux."
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Plugiciel AddThis"

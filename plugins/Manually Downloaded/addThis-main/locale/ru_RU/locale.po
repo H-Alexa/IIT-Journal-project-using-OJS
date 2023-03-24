@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-18 06:52+0000\n"
+"Last-Translator: Pavel Pisklakov <ppv1979@mail.ru>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"ru_RU/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Этот список показывает наиболее популярные ссылки, которыми делились на "
+"прошлой неделе. Всю доступную статистику AddThis Вы можете получить зайдя на "
+"сайт в раздел <a href=\"https://www.addthis.com/dashboard\" target=\"_blank\""
+">«AddThis Dashboard»</a>."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Топ ссылок, которыми поделились"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Поделились"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Пароль AddThis (требуется для показа статистики)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Имя пользователя AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Плагин обеспечивает возможность поделиться материалами в социальных сетях с "
+"помощью AddThis."
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Пожалуйста, выберите как AddThis должен отображаться"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Зарегистрироваться</a> для "
+"свободного получения детальных аналитических отчётов и лучшего понимания "
+"социального трафика Вашего сайта."
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Плагин «AddThis»"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "ID профиля AddThis"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Форма настроек AddThis была сохранена."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Статистика"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Настройки"
+
+msgid "plugins.generic.addThis.title"
+msgstr "Плагин AddThis"

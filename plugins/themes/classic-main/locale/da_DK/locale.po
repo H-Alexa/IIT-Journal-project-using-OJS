@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-22T16:12:23+00:00\n"
+"PO-Revision-Date: 2020-08-15 08:48+0000\n"
+"Last-Translator: Niels Erik Frederiksen <nef@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/classic/"
+"da_DK/>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.themes.classic.name"
+msgstr "Classic Theme"
+
+msgid "plugins.themes.classic.description"
+msgstr ""
+"Et OJS-tema, der spiller på farve- og skrifttype-kontraster, der er baseret "
+"på litterære klassikeres bogdesign og med et stærk kontrasterende sort "
+"sidehoved og en slags varemærket sidefod."
+
+msgid "plugins.themes.classic.option.primaryColor.label"
+msgstr "Grundfarve"
+
+msgid "plugins.themes.classic.option.primaryColor.description"
+msgstr "Skift temaets primærfarve"
+
+msgid "plugins.themes.classic.menu"
+msgstr "Menu"
+
+msgid "plugins.themes.classic.issueDescription"
+msgstr "Nummerbeskrivelse"
+
+msgid "plugins.themes.classic.more"
+msgstr "Mere"
+
+msgid "plugins.themes.classic.less"
+msgstr "Mindre"
+
+msgid "plugins.themes.classic.fullIssue"
+msgstr "Helt nummer"
+
+msgid "plugins.themes.classic.tableOfContents"
+msgstr "Indholdsfortegnelse"
+
+msgid "plugins.themes.classic.close"
+msgstr "Luk"
+
+msgid "plugins.themes.classic.biography"
+msgstr "Bio"
+
+msgid "plugins.themes.classic.more-info"
+msgstr "mere info"
+
+msgid "plugins.themes.classic.pagination"
+msgstr "Sidenummerering"
+
+msgid "plugins.themes.classic.volume-abbr"
+msgstr "Årgang/Bind"
+
+msgid "plugins.themes.classic.number-abbr"
+msgstr "Nej"
+
+msgid "plugins.themes.classic.options.journalSummary.enable"
+msgstr "Vis på tidsskriftets hjemmeside."
+
+msgid "plugins.themes.classic.options.journalSummary.disable"
+msgstr "Vis ikke på tidsskriftets hjemmeside."

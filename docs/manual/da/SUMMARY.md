@@ -1,0 +1,23 @@
+# Opsummering
+
+* [Introduktion](README)
+* [Brugerprofil](user-profile)
+* [Forfatter](authoring)
+* [Bedømmelse](reviewing)
+* [Håndtering af indsendelser](submissions)
+* [Det redaktionelle workflow](editorial-workflow)
+   * [Indsendelsestrinnet](editorial-workflow/submission)
+   * [Bedømmelsestrinnet](editorial-workflow/review)
+   * [Manuskriptredigering](editorial-workflow/copyediting)
+   * [Produktion](editorial-workflow/production)
+* [Håndtering af numre](issue-management)
+* [Opgaver](tasks)
+* Indstillinger
+   * [Tidsskrift](settings/journal-settings)
+   * [Website](settings/website-settings)
+   * [Workflow](settings/workflow-settings)
+   * [Distribuering](settings/distribution-settings)
+* [Brugere og roller](users-and-roles)
+* [Værktøjer](tools)
+* [Statistikker](statistics)
+* [Administration](administration)

@@ -1,0 +1,202 @@
+/**
+ * @defgroup pkp_modal
+ */
+
+/**
+ * @file styles/controllers/modal.less
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @ingroup pkp_modal
+ *
+ * @brief Styles for pkp_modal
+ */
+
+// Hides the outer scrollbar when a modal is visible
+// Assigned to the <body> when a modal is visible
+.modal_is_visible {
+	overflow: hidden !important;
+}
+
+// Screen behind modal
+.pkp_modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	overflow-y: auto;
+	cursor: pointer;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, visibility 0.3s;
+	-moz-transition: opacity 0.3s, visibility 0.3s;
+	transition: opacity 0.3s, visibility 0.3s;
+
+	&.is_visible {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+// Modal
+.pkp_modal_panel {
+	position: relative;
+	width: 90%;
+	max-width: 50em;
+	background: @lift;
+	margin: 1rem auto;
+	cursor: auto;
+	border-radius: 3px;
+	.transform(translateY(-30px));
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+
+}
+
+// Modal when visible
+.is_visible .pkp_modal_panel {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.pkp_modal_panel {
+
+	// Height and width of the close button (matches height of header)
+	@pkp_modal_panel_close_box_len: 4rem;
+
+	> .header,
+	> .content {
+		padding: 1rem;
+	}
+
+	> .header {
+		min-height: 3rem;
+		border-top-left-radius: @radius;
+		border-top-right-radius: @radius;
+		font-weight: @bold;
+		line-height: 3rem;
+		padding: 0 3rem 0 1rem;
+	}
+
+	> .close {
+		position: absolute;
+		top: 0.5rem;
+		right: 0.5rem;
+		width: 2rem;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 24px;
+		border-top-right-radius: @radius;
+		text-align: center;
+		text-decoration: none;
+		color: @text;
+		border: 1px solid transparent;
+
+		&:hover {
+			color: @primary;
+		}
+
+		&:focus {
+			outline: 0;
+			border-radius: @radius;
+			border: 1px solid @primary;
+		}
+	}
+
+	> .footer {
+		padding: 1rem;
+		border-bottom-left-radius: @radius;
+		border-bottom-right-radius: @radius;
+		text-align: right;
+
+		.ok {
+			&:extend(.pkp_button all);
+		}
+
+		.cancel {
+			&:extend(.pkp_button_offset all);
+			margin-left: 0.5rem;
+		}
+	}
+}
+
+// Confirmation modals
+.pkp_modal_confirmation {
+	max-width: 30em;
+
+	.content {
+		font-size: @font-sml;
+		line-height: @line-sml;
+	}
+}
+
+// Tabs
+.pkp_modal {
+
+	.ui-tabs-nav {
+		margin: -1rem -1rem 0;
+		padding: 1rem 1rem 0;
+		background: transparent;
+		border-bottom: 1px solid @bg-border-color-light;
+
+		a {
+			position: relative;
+			top: 1px;
+			border: 1px solid transparent;
+			border-bottom: none;
+			background: transparent;
+		}
+
+		.ui-state-active a {
+			border-left-color: @bg-border-color-light;
+			border-right-color: @bg-border-color-light;
+			background: @lift;
+		}
+	}
+
+	.ui-tabs-panel .pkp_help_tab {
+		border: 1px solid @bg-border-color-light;
+		border-bottom: none;
+		top: calc(~"(2rem - 1px) * -1");
+	}
+}
+
+.pkp_modal .ui-tabs-panel {
+	padding: 2rem 0 0;
+	border: none;
+}
+
+.modal_buttons {
+	margin-top: 2rem;
+
+	.pkp_spinner {
+		&:extend(.pkp_form .pkp_spinner);
+	}
+
+	.cancel {
+		&:extend(.pkp_button_offset);
+		margin-left: 0.5em;
+	}
+}
+
+// Help link inside modals
+.pkp_modal_panel > .content > .pkp_help_link {
+	top: 0.5rem;
+}
+
+// Vue.js forms inside modals
+.pkp_modal .pkpForm {
+	margin: -1rem;
+}

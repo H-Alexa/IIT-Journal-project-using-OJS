@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-11 17:40+0000\n"
+"Last-Translator: Tran Ngoc Trung <khuchatthienduong@gmail.com>\n"
+"Language-Team: Vietnamese <http://translate.pkp.sfu.ca/projects/plugins/"
+"addthis/vi_VN/>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Danh sách này hiển thị các liên kết được chia sẻ phổ biến nhất của bạn trong "
+"tuần qua. Để biết tất cả các số liệu thống kê về Add This có thể, vui lòng "
+"truy cập trang web <a href=\"https://www.addthis.com/dashboard\" target=\""
+"_blank\">AddThis Dashboard</a> và đăng nhập."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Các link được chia sẻ hàng đầu"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Các chia sẻ"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Vui lòng chọn cách AddThis sẽ hiển thị"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Đăng ký</a> để nhận báo cáo "
+"phân tích chuyên sâu miễn phí và hiểu rõ hơn lưu lượng truy cập xã hội của "
+"trang web của bạn."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Mật khẩu AddThis (cần thiết để hiển thị số liệu thống kê)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Tên người dùng AddThis"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "ID hồ sơ AddThis"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Thiết lập biểu mẫu AddThis đã lưu."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Số liệu thống kê"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Cài đặt"
+
+msgid "plugins.generic.addThis.title"
+msgstr "AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Plugin này cung cấp phương tiện truyền thông xã hội chia sẻ AddThis cho đệ "
+"trình."
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Plugin AddThis"

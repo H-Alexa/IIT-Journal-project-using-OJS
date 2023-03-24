@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-15 08:36+0000\n"
+"Last-Translator: Bjorn-Ole Kamm <pkp_trans@b-ok.de>\n"
+"Language-Team: Japanese <http://translate.pkp.sfu.ca/projects/plugins/"
+"browse-plugin/ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.block.browse.category"
+msgstr "カテゴリー"
+
+msgid "plugins.block.browse.description"
+msgstr "サイドバーに「ブラウズ」ツールを付けます。"
+
+msgid "plugins.block.browse.displayName"
+msgstr "ブラウズブロック"
+
+msgid "plugins.block.browse"
+msgstr "ブラウズ"

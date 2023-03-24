@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install SYSTEM "../../lib/pkp/dtd/install.dtd">
+<!--
+  * dbscripts/xml/install.xml
+  *
+  * Copyright (c) 2014-2021 Simon Fraser University
+  * Copyright (c) 2003-2021 John Willinsky
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * Installation descriptor file.
+  -->
+
+<install version="3.3.0.7">
+	<code function="checkPhpVersion" />
+
+	<code function="createDirectories"/>
+
+	<!-- PKP schema components -->
+	<migration class="lib.pkp.classes.migration.AnnouncementsMigration" />
+	<migration class="lib.pkp.classes.migration.CategoriesMigration" />
+	<migration class="lib.pkp.classes.migration.CommonMigration" />
+	<migration class="lib.pkp.classes.migration.ControlledVocabMigration" />
+	<migration class="lib.pkp.classes.migration.FilesMigration" />
+	<migration class="lib.pkp.classes.migration.GenresMigration" />
+	<migration class="lib.pkp.classes.migration.JobsMigration" />
+	<migration class="lib.pkp.classes.migration.LibraryFilesMigration" />
+	<migration class="lib.pkp.classes.migration.LogMigration" />
+	<migration class="lib.pkp.classes.migration.MetadataMigration" />
+	<migration class="lib.pkp.classes.migration.MetricsMigration" />
+	<migration class="lib.pkp.classes.migration.NavigationMenusMigration" />
+	<migration class="lib.pkp.classes.migration.NotesMigration" />
+	<migration class="lib.pkp.classes.migration.ReviewFormsMigration" />
+	<migration class="lib.pkp.classes.migration.SubmissionFilesMigration" /><!-- before ReviewsMigration so that foreign keys can be defined-->
+	<migration class="lib.pkp.classes.migration.ReviewsMigration" />
+	<migration class="lib.pkp.classes.migration.RolesAndUserGroupsMigration" />
+	<migration class="lib.pkp.classes.migration.ScheduledTasksMigration" />
+	<migration class="lib.pkp.classes.migration.SubmissionsMigration" />
+	<migration class="lib.pkp.classes.migration.TemporaryFilesMigration" />
+	<migration class="lib.pkp.classes.migration.TombstoneMigration" />
+	<migration class="lib.pkp.classes.migration.ViewsMigration" />
+
+	<!-- OJS schema -->
+	<migration class="classes.migration.OJSMigration" />
+
+	<!-- Other install tasks -->
+	<code function="createData"/>
+	<code function="createConfig"/>
+	<code function="addPluginVersions"/>
+	<code function="installDefaultNavigationMenus"/>
+</install>

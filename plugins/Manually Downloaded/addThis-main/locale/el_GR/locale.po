@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-21 12:28+0000\n"
+"Last-Translator: Manolis Saldaris <omanos@gmail.com>\n"
+"Language-Team: Greek <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"el_GR/>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Αυτή η λίστα εμφανίζει τους πιο δημοφιλείς κοινόχρηστους συνδέσμους σας την "
+"τελευταία εβδομάδα. Για όλα τα πιθανά στατιστικά στοιχεία του AddThis, "
+"επισκεφθείτε τον ιστότοπο <a href=\"https://www.addthis.com/dashboard\" "
+"target=\"_blank\">Ταμπλό AddThis</a> και συνδεθείτε."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Κορυφαίοι κοινόχρηστοι σύνδεσμοι"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Κοινοποιήσεις"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Επιλέξτε τον τρόπο που θέλετε να εμφανίζεται το πρόσθετο AddThis"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Εγγραφείτε</a> για δωρεάν "
+"αναλυτικές αναφορές στατιστικών στοιχείων και κατανοήστε καλύτερα την "
+"κοινωνική κίνηση του ιστότοπού σας."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Κωδικός πρόσβασης AddThis (απαιτείται για την εμφάνιση στατιστικών)"
+
+#, fuzzy
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "Αναγνωριστικό AddThis"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Όνομα Χρήστη AddThis"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Οι ρυθμίσεις της φόρμας του AddThis αποθηκεύτηκαν."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Στατιστικά"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Ρυθμίσεις"
+
+msgid "plugins.generic.addThis.title"
+msgstr "Πρόσθετο AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr ""
+"Αυτό το πρόσθετο επιτρέπει την κοινή χρήση υποβολών σε μέσα κοινωνικής "
+"δικτύωσης."
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Πρόσθετο AddThis"

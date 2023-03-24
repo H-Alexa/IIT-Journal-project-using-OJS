@@ -1,0 +1,46 @@
+/**
+ * @file less/objects/issue_summary.less
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief Stylesheet for issue summary (cover, description, etc.) on the archive page
+ *
+ */
+
+.archive_issue_cover {
+	max-width: 100%;
+}
+
+.current-issue-volume + .current-issue-number:before {
+	content: ", ";
+}
+
+span + .current-issue-year:before {
+	content: " (";
+}
+
+span + .current-issue-year:after {
+	content: ")";
+}
+
+.cover, .issue_summary_title, .issue_title {
+	border: 0;
+}
+
+.obj_issue_summary {
+	display: flex;
+	flex-direction: column;
+}
+
+.issue_summary_date {
+	font-size: small;
+	font-family: @font-family-secondary;
+	padding: 0;
+	margin: 0.5em 0 0.75em 0;
+}
+
+.issue_summary_description_text {
+	font-size: 14px;
+}

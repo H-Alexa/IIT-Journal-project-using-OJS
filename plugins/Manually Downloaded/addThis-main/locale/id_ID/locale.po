@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-21 14:38+0000\n"
+"Last-Translator: Ramli Baharuddin <ramli.baharuddin@relawanjurnal.id>\n"
+"Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/plugins/"
+"addthis/id/>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "Plugin AddThis"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr ""
+"Daftar ini menampilkan tautan yang dibagikan paling populer sepekan yang "
+"lalu. Untuk semua kemungkinan statistik addThis, kunjungi website <a href=\""
+"https://www.addthis.com/dashboard\" target=\"_blank\">Dashboard AddThis</a> "
+"dan log in."
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "Urutan Teratas Tautan yang Dibagikan"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "Bagikan"
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "Tentukan cara menampilkan addThis"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr ""
+"<a href=\"https://www.addthis.com/register\">Daftar</a> untuk mendapatkan "
+"laporan analisis dan pemahaman lengkap mengenai trafik sosial website Anda."
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "Password addThis (diperlukan untuk menampilkan statistik)"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "Username AddThis"
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "ID Profil AddThis"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "Pengaturan borang addThis telah disimpan."
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "Statistik"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "Pengaturan"
+
+msgid "plugins.generic.addThis.title"
+msgstr "Plugin AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr "Plugin ini menyediakan tombol berbagi naskah via media sosial addThis."

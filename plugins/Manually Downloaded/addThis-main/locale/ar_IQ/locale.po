@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-25T16:03:51+00:00\n"
+"PO-Revision-Date: 2020-06-15 06:39+0000\n"
+"Last-Translator: M. Ali <vorteem@gmail.com>\n"
+"Language-Team: Arabic <http://translate.pkp.sfu.ca/projects/plugins/addthis/"
+"ar_IQ/>\n"
+"Language: ar_IQ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.addThis.displayName"
+msgstr "إضافة AddThis"
+
+msgid "plugins.generic.addThis.description"
+msgstr "هذه الإضافة تتيح مشاركة طلبات التقديم عبر وسائل التواصل الاجتماعي."
+
+msgid "plugins.generic.addThis.title"
+msgstr "إضافة AddThis"
+
+msgid "plugins.generic.addThis.settings"
+msgstr "الإعدادات"
+
+msgid "plugins.generic.addThis.settings.statistics"
+msgstr "الإحصائيات"
+
+msgid "plugins.generic.addThis.form.saved"
+msgstr "تم حفظ إعدادات AddThis بنجاح."
+
+msgid "plugins.generic.addThis.form.profileId"
+msgstr "رمز الملف التعريفي لـ AddThis"
+
+msgid "plugins.generic.addThis.form.username"
+msgstr "اسم مستخدم AddThis"
+
+msgid "plugins.generic.addThis.form.password"
+msgstr "كلمة مرور AddThis (مطلوبة لعرض الإحصائيات)"
+
+msgid "plugins.generic.addThis.form.registerLink"
+msgstr "<a href=\"https://www.addthis.com/register\">التسجيل</a> للحصول على تقارير إحصائية معمقة من أجل فهم أفضل لحركة المرور الاجتماعية في موقعك."
+
+msgid "plugins.generic.addThis.settings.displayStyle"
+msgstr "لطفاً، إختر كيفية عرض AddThis"
+
+msgid "plugins.generic.addThis.grid.shares"
+msgstr "مشاركات"
+
+msgid "plugins.generic.addThis.grid.title"
+msgstr "أكثر الروابط مشاركة"
+
+msgid "plugins.generic.addThis.statistics.instructions"
+msgstr "هذه القائمة تعرض أكثر الروابط مشاركة خلال الأسبوع الماضي. للحصول على كل الإحصائيات المتاحة من AddThis، لطفاً، قم بزيارة موقع <a href=\"https://www.addthis.com/dashboard\" target=\"_blank\">دفة قيادة AddThis</a> وسجل دخولك فيه."

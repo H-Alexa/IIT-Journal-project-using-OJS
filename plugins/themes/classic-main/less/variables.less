@@ -1,0 +1,31 @@
+/**
+ * @file less/variables.less
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2003-2020 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief less theme-wide variables
+ *
+ */
+
+@font-size: 16px;
+@font-family-primary: 'Cardo', serif;
+@font-family-secondary: 'Montserrat', sans-serif;
+
+/* site-wide color variables */
+
+@primary-colour: #FFD120;
+@secondary-colour: darken(@primary-colour, 45%);
+@contrast-colour: #000;
+@dark-grey: #333333;
+
+/* header variables */
+@minHeight-userMenu: 100px;
+@site-padding: 30px;
+
+/* need to be changed before production */
+@image-maxwidth: 400px;
+img {
+	max-width: @image-maxwidth;
+}
