@@ -5,21 +5,34 @@ Here, information is guaranteed to be open for all enthusiasts, as non-members c
 Detailed video of the workflow and the project itself: https://drive.google.com/drive/folders/158OL8YCAcRjuijHB1lVi_iAtrwWfcKaP
 
 Workflow:
-    • For browsing, anyone can go to the URL and check current and previous issues.
+    • For browsing, anyone can go to the URL and check current and previous issues. 
+    
     • To make submissions, author has to create an account first by providing required information and agreeing to our privacy statement.
+    
     • Author can request for a new submission as well as view the current state of previous submissions.
+    
     • After submission, admin has to assign an editor.
+    
     • Editor can send the submission to the reviewers, can directly send the submission to copyeditors avoiding review part or can decline submission.
+    
     • At review phase, a reviewer is requested to submit review within a due date by the editor.
+    
     • Reviewer can accept or decline the request. In the later case, editor has to look for another reviewer. 
+    
     • After accepting review request, reviewer submits his recommendation and review file and let editor and author know about his feedback.
+    
     • Editor decides the final recommendation, whether revision is required or not, and then sends that to author (if revision is required) or copyeditor (if no revision is required) or decline the submission.
+    
     • Author provides necessary revisions if required. After necessary requirements are met, editor sends the file to copyediting.
+    
     • In copyediting phase, further modifications are made if necessary, upon discussing with editor. Then it is sent to Production.
+    
     • Production editor rechecks every data and metadata, adds required galleys, assigns for a particular issue and schedules the publication and notifies the author.
+    
     • When the issue is published, the article will be visible along with it.
 
 Sequence diagram:
+
 ![image](https://user-images.githubusercontent.com/54031572/229293657-8ab9bf63-5f81-4db2-8ce7-9eb4bc0c7865.png)
 
 Homepage: (for non user)
